@@ -1,0 +1,14 @@
+name: VelocityArenas
+version: '${project.version}'
+main: dev.manere.velocityarenas.VelocityArenas
+api-version: '1.20'
+depend:
+  - FastAsyncWorldEdit
+
+permissions:
+  velocity.staff:
+    default: op
+
+commands:
+  arenaregen:
+    permission: velocity.staff
