@@ -1,7 +1,7 @@
 name: VelocityArenas
 version: '${project.version}'
 main: dev.manere.velocityarenas.VelocityArenas
-api-version: '1.20'
+api-version: '1.17'
 depend:
   - FastAsyncWorldEdit
 
